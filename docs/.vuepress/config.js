@@ -1,6 +1,6 @@
 module.exports = {
   port: '5000',
-  dest: 'public',
+  // dest: 'public',
   base: '/zto-share/',
   title: 'ZTO Share',
   themeConfig: {
@@ -17,7 +17,6 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        
         '@assets': '/assets'
       }
     }
