@@ -5,7 +5,7 @@
 - 主要是关于分支模型
 - 并不是规范，是一套指导原则
 
-![Image from alias](~@assets/git/git-flow-nvie.png)
+<img :src="$withBase('/assets/git/git-flow-nvie.png')" />
 
 ## 关于Commit
 ### Commit注释规范
