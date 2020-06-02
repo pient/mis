@@ -17,13 +17,13 @@
 - 提高项目质量
 
 #### Angluar团队的提交代码方式
-1. git commit -m '[<"type"> #<"issue number">]: ["Short summary of the change"].'
+1. 提交格式
 ```
-<type>[optional scope]: <description>
+<类型>[可选的作用域]: <描述>
 
-[optional body]
+[可选的正文]
 
-[optional footer(s)]
+[可选的脚注]
 ```
 
 type类型：
@@ -36,10 +36,10 @@ type类型：
 - chore 杂项 （构建工具、辅助工具的变动）
 - perf 性能优化
 
-2. git commit -m '[fix #1234]: 修复XXXbug'
+2. git commit -m 'fix(#1234): 修复XXX'
 
 参考：
-- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0-beta.4/)
 
 #### 工具
 - Commitizen - Commit提交工具
@@ -54,11 +54,12 @@ type类型：
 
 ### git merge的原理
 
-
 ### merge vs rebase
 
 ### reset vs revert
 
 ### cherrypick
+
+### git tag
 
 ### git blame
