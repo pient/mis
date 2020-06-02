@@ -31,6 +31,8 @@ type类型：
 
 2. git commit -m '[fix #1234]: 修复XXXbug'
 
+#### 工具
+- [如何优雅的管理你的commit？ - Angluar团队的提交代码方式](https://zhuanlan.zhihu.com/p/78668900)
 
 ## 其他
 
