@@ -1,0 +1,15 @@
+{
+  "name": "zto-share",
+  "version": "1.0.0",
+  "description": "'# Hello VuePress'",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rayl",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  }
+}
