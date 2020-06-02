@@ -16,8 +16,15 @@
 - 方便确认代码提交者及commit（git blame）
 - 提高项目质量
 
-#### 示例
+#### Angluar团队的提交代码方式
 1. git commit -m '[<"type"> #<"issue number">]: ["Short summary of the change"].'
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
 
 type类型：
 - feat 新功能(feature)
@@ -31,8 +38,17 @@ type类型：
 
 2. git commit -m '[fix #1234]: 修复XXXbug'
 
+参考：
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
 #### 工具
-- [如何优雅的管理你的commit？ - Angluar团队的提交代码方式](https://zhuanlan.zhihu.com/p/78668900)
+- Commitizen - Commit提交工具
+  - [如何优雅的管理你的commit？](https://zhuanlan.zhihu.com/p/78668900)
+- Commitlint - Commit规范提示
+  - [commitlint](https://segmentfault.com/a/1190000017790694)
+  - [commitizen官网](https://commitlint.js.org/)
+- Husky - 提交钩子
+  - [git commit前检测husky与pre-commit](https://segmentfault.com/a/1190000015953265)
 
 ## 其他
 
