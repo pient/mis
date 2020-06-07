@@ -14,13 +14,17 @@
   "author": "rayl",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
+    "cz-customizable": "^6.2.0",
+    "husky": "^4.2.5",
     "vuepress": "^1.5.0"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-customizable"
     }
   },
   "husky": {
