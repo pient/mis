@@ -1,13 +1,14 @@
 {
   "name": "zto-share",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "'# Hello VuePress'",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "commit": "npx git-cz",
+    "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.MD"
   },
   "pre-commit": [],
@@ -20,7 +21,12 @@
     "cz-conventional-changelog": "^3.2.0",
     "cz-customizable": "^6.2.0",
     "husky": "^4.2.5",
+    "standard-version": "^8.0.0",
     "vuepress": "^1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.ztosys.com/FinanceInformation/finance-web.git"
   },
   "config": {
     "commitizen": {

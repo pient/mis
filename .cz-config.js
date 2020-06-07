@@ -51,8 +51,8 @@ module.exports = {
     subject: '请设置当前提交的简短描述:\n',
     body: '请设置当前提交的详细描述(可选). 使用 "|" 换行:\n',
     breaking: '列出任意BREAKING CHANGES (可选):\n',
-    footer: '列出所有关联的任务ID(可选，E.g.: #JGRW-123, #JGRW-234):\n',
-    confirmCommit: '确认以上的提交吗?'
+    footer: '列出完成的任务ID(可选，E.g.: #JGRW-123, #JGRW-234):\n',
+    confirmCommit: '确认提交?'
   },
 
   scopes: [],
