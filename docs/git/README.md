@@ -4,11 +4,12 @@
 - 是一组版本控制的指导原则
 - 主要是关于分支模型
 - 并不是规范，是一套指导原则
-![Image from alias](~@assets/git/git-flow-nvie.png)
+
+<img :src="$withBase('/assets/git/git-flow-nvie.png')" />
 
 参考：
-- [抛弃 Git Flow 的 8 大理由](https://tech.sina.com.cn/roll/2020-03-20/doc-iimxxsth0618703.shtml)
 - [基于git的源代码管理模型——git flow](https://www.ituring.com.cn/article/56870)
+- [抛弃 Git Flow 的 8 大理由](https://tech.sina.com.cn/roll/2020-03-20/doc-iimxxsth0618703.shtml)
 
 ## 关于Commit规范
 #### 目的
